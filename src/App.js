@@ -23,10 +23,18 @@ function App() {
         </ul>
       </header>
       <div className="content p-40">
-        <h1 className='mb-40'>Все кроссовки</h1>
-
+        <div className='d-flex align-center justify-between mb-40'>
+          <h1>Все кроссовки</h1>
+          <div className='search-block d-flex '>
+            <img src="/images/search.svg" alt="Search" />
+            <input placeholder="Поиск..." />
+          </div>
+        </div>
         <div className='d-flex'>
           <div className='card'>
+            <div className='favorite'>
+              <img src="/images/heart-unliked.svg" alt="liked" />
+            </div>
             <img width={133} height={112} src="/images/sneakers/1.jpg" alt="Sneakers " />
             <h5>Мужские Кроссовки Nike Blazer Mid Suede</h5>
             <div className='d-flex justify-between align-center'>
@@ -85,3 +93,4 @@ function App() {
 }
 
 export default App;
+
