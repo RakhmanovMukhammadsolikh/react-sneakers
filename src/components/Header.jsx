@@ -12,7 +12,7 @@ export const Header = ({ onClickCart }) => {
                     </div>
                 </div>
                 <ul className="d-flex cu-p">
-                    <li onClick={onClickCart} className='mr-30'>
+                    <li onClick={onClickCart} className='mr-30 d-flex align-center'>
                         <img src="/images/cart.svg" width={18} height={18} alt="Cart" />
                         <span>1205 руб.</span>
                     </li>
